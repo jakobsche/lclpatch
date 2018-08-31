@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="LCLPatch"/>
+    <AddToProjectUsesSection Value="True"/>
+    <Author Value="Andreas Jakobsche"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <CodeGeneration>
+        <SmartLinkUnit Value="True"/>
+      </CodeGeneration>
+      <Other>
+        <Verbosity>
+          <ShoLineNum Value="True"/>
+        </Verbosity>
+      </Other>
+    </CompilerOptions>
+    <Description Value="adds useful procedures to a project to simplify GUI app programming"/>
+    <License Value="same as Lazarus Component Library which is used in the same IDE as this package"/>
+    <Version Major="3"/>
+    <Files Count="4">
+      <Item1>
+        <Filename Value="formex.pas"/>
+        <UnitName Value="FormEx"/>
+      </Item1>
+      <Item2>
+        <Filename Value="media.pas"/>
+        <UnitName Value="Media"/>
+      </Item2>
+      <Item3>
+        <Filename Value="dwg.pas"/>
+        <UnitName Value="Dwg"/>
+      </Item3>
+      <Item4>
+        <Filename Value="langmenu.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="LangMenu"/>
+      </Item4>
+    </Files>
+    <i18n>
+      <EnableI18N Value="True"/>
+      <OutDir Value="po"/>
+    </i18n>
+    <RequiredPkgs Count="3">
+      <Item1>
+        <PackageName Value="streams"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="FCL"/>
+      </Item3>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <DestinationDirectory Value="/home/andreas/private/work/lclpatch"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lpr|lfm|lrs|lpi|lpk|xml|sh|html)"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions><package name="LCLPatch"><module name="FormEx"><element name="FormAdjust"><short>adjusts a form on the screen</short><descr>Not all operating systems support TForm.Position = poDefault. If you call this procedure in a form's event handler, for example OnCreate, you can adjust it similarly to Position = poDefault under Windows SE. Call this procedure with the form instance as parameter to make your form more independent on system supported functionality.</descr>
+      </element><element name="ControlAdjust"><short>tries to position a control in its parent control well.</short><descr>If a control has a parent control, and you want to place it always in a way, that it is always completely visible but not necessarily filling out the parent control, try this procedure after every size change of the parent control.</descr>
+      </element><short>add ons to design the behavior of a form and its content</short>
+    <element name="FormAdjust.Form"><short>form that has to be placed on the screen</short>
+      </element><element name="ControlAdjust.Control"><short>Control to adjust in its parent control</short>
+      </element>
+    </module>
+  </package>
+</fpdoc-descriptions>
