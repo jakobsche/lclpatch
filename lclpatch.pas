@@ -8,7 +8,7 @@ unit LCLPatch;
 interface
 
 uses
-  FormEx, Media, Dwg, LangMenu;
+  FormEx, Media, Dwg, LangMenu, MasterFm, SlvSelFm, SlaveSelDlg;
 
 implementation
 

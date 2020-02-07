@@ -1,0 +1,51 @@
+object SlaveSelForm: TSlaveSelForm
+  Left = 857
+  Height = 277
+  Top = 244
+  Width = 304
+  BorderStyle = bsDialog
+  Caption = 'Anzeigen'
+  ClientHeight = 277
+  ClientWidth = 304
+  LCLVersion = '2.0.6.0'
+  Visible = True
+  object FormListBox: TListBox
+    Left = 8
+    Height = 184
+    Top = 8
+    Width = 288
+    ItemHeight = 0
+    TabOrder = 0
+  end
+  object OKBtn: TBitBtn
+    Left = 16
+    Height = 30
+    Top = 216
+    Width = 75
+    Default = True
+    DefaultCaption = True
+    Kind = bkOK
+    ModalResult = 1
+    TabOrder = 1
+  end
+  object AbortBtn: TBitBtn
+    Left = 104
+    Height = 30
+    Top = 216
+    Width = 96
+    DefaultCaption = True
+    Kind = bkAbort
+    ModalResult = 3
+    TabOrder = 2
+  end
+  object HelpBtn: TBitBtn
+    Left = 216
+    Height = 30
+    Top = 216
+    Width = 75
+    DefaultCaption = True
+    Kind = bkHelp
+    TabOrder = 3
+    Visible = False
+  end
+end
