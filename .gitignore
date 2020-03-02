@@ -1,4 +1,5 @@
 lib
 backup
 .DS_Store
-
+.directory
+*.bak
